@@ -1,1 +1,73 @@
 /*Schrijf hier jouw CSS*/
+
+.opdracht-1 ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*Op 02*/
+.opdracht-2 ul, {
+  display: flex;
+}
+
+.opdracht-2 ul li {
+  flex-basis: 33%;
+}
+
+
+/*Op 03*/
+
+.opdracht-3 ul {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.opdracht-3 ul li:nth-child(2) {
+  align-self: center;
+}
+
+.opdracht-3 ul li:last-child {
+  align-self: end;
+}
+
+/*Op 04*/
+
+.opdracht-4 ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* OP 05*/
+
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+div.flex-container ul{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+.opdracht-5 > div ul:nth-child(2){
+  align-items: center;
+}
+
+.opdracht-5 > div ul:nth-child(3){
+  align-items: flex-end;
+}
+
+
+
+
+
+
+
